@@ -108,3 +108,14 @@ def echo(message):
 ```
 
 ![image](https://github.com/XaSaFa/TelegramBot/assets/110727546/b3f2d24f-295f-4d04-a06b-db71113234ef)
+
+### Funció calculadora
+
+```
+@bot.message_handler(commands=['calc'])
+def calcula(message):
+    result = eval(message.text[6:])
+    bot.reply_to(message, result)
+```
+
+![image](https://github.com/XaSaFa/TelegramBot/assets/110727546/1f7ea6b1-d054-4382-a0a9-0b76634d096e)
