@@ -94,3 +94,17 @@ bot.infinity_polling()
 Després anem al bot i escrivim l'ordre "/d6":
 
 ![image](https://github.com/XaSaFa/TelegramBot/assets/110727546/172a2833-f085-4c00-85a4-5313c693cccc)
+
+
+### Funció echo
+
+Aquesta funció respòn a l'usuari amb el mateix text que envia:
+
+```
+#Aquesta funció fa eco, és a dir respòn a l'usuari amb el mateix missatge
+@bot.message_handler(func=lambda m: True)
+def echo(message):
+    bot.reply_to(message, message.text)
+```
+
+![image](https://github.com/XaSaFa/TelegramBot/assets/110727546/b3f2d24f-295f-4d04-a06b-db71113234ef)
