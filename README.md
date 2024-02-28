@@ -10,6 +10,7 @@ Què necessitem per fer un bot de Telegram?
 
 1. Telegram: Primer necessitem un compte de Telegram.
 2. Python: Màquina amb un programa de Python executant-se.
+3. Pycharm: instal·larem aquest IDE així: ```sudo snap install pycharm-community --classic```
 
 # Telegram
 
